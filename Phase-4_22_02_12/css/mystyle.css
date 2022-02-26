@@ -1,0 +1,22 @@
+.bg-one{
+    background-color: aqua;
+    border: 2px solid green;
+}
+
+.bg-two{
+    background-color: rgb(84, 117, 71);
+    border: 2px solid rgb(16, 46, 129);
+}
+
+.bg-three{
+    background-color: rgb(151, 41, 83);
+    border: 2px solid rgb(218, 143, 30);
+}
+
+.bg-dark{
+    background-color: #043464!important;
+}
+
+.alert {
+    margin-bottom: 0rem !important;
+}
