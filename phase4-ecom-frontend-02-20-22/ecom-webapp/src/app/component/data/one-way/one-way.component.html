@@ -11,6 +11,13 @@
     <div class="alert alert-success" role="alert">
         Product Price: {{price}}
     </div>
+    <div class="alert alert-warning" role="alert">
+        Product Status: {{isActive}}
+    </div>
+    <div class="alert alert-info" role="alert">
+        Product Customer: <strong>ID:</strong> {{customer.id}} <strong>Name:</strong> {{customer.name}}
+        <strong>Age:</strong> {{customer.age}}
+    </div>
 </div>
 <div class="container">
     <div class="alert alert-danger" role="alert">
@@ -24,5 +31,14 @@
     </div>
     <div class="alert alert-success" role="alert">
         Product Price: <span [innerText]="price"></span>
+    </div>
+    <div class="alert alert-warning" role="alert">
+        Product Status: <span [innerText]="isActive"></span>
+    </div>
+    <div class="alert alert-info" role="alert">
+        Product Customer: 
+        <strong>ID: </strong> <span [innerText]="customer.id"></span> 
+        <strong> Name: </strong> <span [innerText]="customer.name"></span>
+        <strong> Age: </strong> <span [innerText]="customer.age"></span>
     </div>
 </div>

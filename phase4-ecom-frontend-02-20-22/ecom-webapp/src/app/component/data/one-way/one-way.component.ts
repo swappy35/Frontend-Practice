@@ -11,6 +11,12 @@ export class OneWayComponent implements OnInit {
   public title:string = `Apple MacBook XYZ series`;
   public desc:string = `This is a Laptop`;
   public price:number = 78945.25;
+  public isActive:boolean = false;
+  public customer = {
+    id : 4468,
+    name : 'John Snow',
+    age : 25
+  }
   constructor() { }
 
   ngOnInit(): void {
