@@ -8,6 +8,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { OneWayComponent } from './component/data/one-way/one-way.component';
+import { CssBindingComponent } from './component/data/css-binding/css-binding.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OneWayComponent } from './component/data/one-way/one-way.component';
     FooterComponent,
     HomeComponent,
     NavbarComponent,
-    OneWayComponent
+    OneWayComponent,
+    CssBindingComponent
   ],
   imports: [
     BrowserModule,
