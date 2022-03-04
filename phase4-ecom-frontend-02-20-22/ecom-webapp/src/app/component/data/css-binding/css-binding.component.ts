@@ -16,7 +16,7 @@ export class CssBindingComponent implements OnInit {
     id:6574,
     name:`Apple mac book xyz series`,
     price:65456.25,
-    status:true
+    status:false
   }
 
   public colors = {

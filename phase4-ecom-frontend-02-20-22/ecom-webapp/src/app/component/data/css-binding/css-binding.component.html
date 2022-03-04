@@ -13,4 +13,7 @@
 
 <div class="container">
     <h3 [className]="'bg-two'">Class Binding</h3>
+    <div [class]="product.status ? 'alert alert-success' : 'alert alert-danger'" role="alert">
+        Product : {{product.id}}  --{{product.name}}  --{{product.price}}  --{{product.status}}
+    </div>
 </div>
