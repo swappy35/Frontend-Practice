@@ -9,6 +9,9 @@ import { HomeComponent } from './component/home/home.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { OneWayComponent } from './component/data/one-way/one-way.component';
 import { CssBindingComponent } from './component/data/css-binding/css-binding.component';
+import { EventBindingComponent } from './component/data/event-binding/event-binding.component';
+import { TwoWayComponent } from './component/data/two-way/two-way.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { CssBindingComponent } from './component/data/css-binding/css-binding.co
     HomeComponent,
     NavbarComponent,
     OneWayComponent,
-    CssBindingComponent
+    CssBindingComponent,
+    EventBindingComponent,
+    TwoWayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,19 @@
+<div class="container">
+    <h3>Manual Two way data binding (event + property) </h3>
+    <div class="alert alert-primary">{{username}}</div>
+    <input type="text" class="form-control" name="username" (input)="onChange($event)">
+    <!-- <br>
+    <div class="alert alert-secondary">{{username}}</div>
+    <input type="text" class="form-control" name="username" (input)="onDemand($event)"> -->
+</div>
+<br>
+<div class="container">
+    <h3>Two way data binding ngModel Directive(event + property) </h3>
+    <div class="alert alert-primary">{{message}}</div>
+    <input type="text" class="form-control" name="username" [(ngModel)]="message">
+    <!-- <br>
+    <div class="alert alert-secondary">{{username}}</div>
+    <input type="text" class="form-control" name="username" (input)="onDemand($event)"> -->
+</div>
+
+
