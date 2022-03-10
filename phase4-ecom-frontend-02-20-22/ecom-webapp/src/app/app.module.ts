@@ -12,6 +12,9 @@ import { CssBindingComponent } from './component/data/css-binding/css-binding.co
 import { EventBindingComponent } from './component/data/event-binding/event-binding.component';
 import { TwoWayComponent } from './component/data/two-way/two-way.component';
 import { FormsModule } from '@angular/forms';
+import { NotFoundComponent } from './component/not-found/not-found.component';
+import { ProductsModule } from './component/products/products.module';
+import { UsersComponent } from './component/users/users.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +26,14 @@ import { FormsModule } from '@angular/forms';
     OneWayComponent,
     CssBindingComponent,
     EventBindingComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    NotFoundComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ProductsModule,
     FormsModule
   ],
   providers: [],
