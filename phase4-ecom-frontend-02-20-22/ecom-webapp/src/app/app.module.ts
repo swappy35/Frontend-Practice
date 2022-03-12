@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { NotFoundComponent } from './component/not-found/not-found.component';
 import { ProductsModule } from './component/products/products.module';
 import { UsersComponent } from './component/users/users.component';
+import { RegisterComponent } from './component/register/register.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { UsersComponent } from './component/users/users.component';
     HomeComponent,
     NavbarComponent,
     OneWayComponent,
+    RegisterComponent,
     CssBindingComponent,
     EventBindingComponent,
     TwoWayComponent,
@@ -40,3 +42,4 @@ import { UsersComponent } from './component/users/users.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
